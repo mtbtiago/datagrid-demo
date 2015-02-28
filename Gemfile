@@ -1,7 +1,6 @@
 source 'http://rubygems.org'
-ruby '1.9.3'
 
-gem 'rails', '~> 3.1.0'
+gem 'rails', '>= 3.1.0'
 
 
 gem 'pg'
@@ -26,8 +25,8 @@ gem "kaminari"
 gem "therubyracer"
 
 group :assets do
-  gem 'sass-rails', "~> 3.1.0"
-  gem 'coffee-rails', "~> 3.1.0"
+  gem 'sass-rails', ">= 3.1.0"
+  gem 'coffee-rails', ">= 3.1.0"
   gem 'uglifier'
 end
 

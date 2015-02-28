@@ -1,21 +1,28 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  user: tiago
+  password: 12345678
+  pool: 5
+
 development:
   adapter: postgresql
-  database: datagrid_development
-  host: localhost
-  username: postgres
+  encoding: unicode
+  user: tiago
+  password: 12345678
   pool: 5
-  timeout: 5000
+  database: datagrid_development_a
 
 test:
   adapter: postgresql
-  database: datagrid_test
-  username: postgres
+  encoding: unicode
+  user: tiago
+  password: 12345678
   pool: 5
-  timeout: 5000
+  database: datagrid_test_a
 
 production:
   adapter: postgresql
   database: datagrid_production
-  username: postgres
   pool: 5
   timeout: 5000

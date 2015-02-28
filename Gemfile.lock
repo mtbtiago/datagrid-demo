@@ -145,7 +145,7 @@ DEPENDENCIES
   bson (= 1.4.0)
   bson_ext (= 1.4.0)
   carrierwave
-  coffee-rails (~> 3.1.0)
+  coffee-rails (>= 3.1.0)
   database_cleaner
   datagrid!
   debugger
@@ -156,7 +156,7 @@ DEPENDENCIES
   kaminari
   mongoid (= 2.2.2)
   pg
-  rails (~> 3.1.0)
-  sass-rails (~> 3.1.0)
+  rails (>= 3.1.0)
+  sass-rails (>= 3.1.0)
   therubyracer
   uglifier
